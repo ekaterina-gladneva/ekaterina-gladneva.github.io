@@ -441,6 +441,30 @@ figcaption { margin-bottom: 16px; }
 .screens--compare { row-gap: 16px; margin-top: 106px; }
 .only-mobile { display: none; }
 
+.case-btn-wrap {
+  width: min(591px, 100%);
+  margin-top: 107px;
+}
+.case-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  border: 1px solid var(--white);
+  background: transparent;
+  color: var(--white);
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+.case-btn:focus-visible { background: var(--white); color: var(--black); outline-offset: 4px; }
+@media (hover: hover) {
+  .case-btn:hover { background: var(--white); color: var(--black); text-decoration: none; }
+}
+.case--club .case-btn-wrap + .role { margin-top: 77px; }
 .case--club .role { margin-top: 96px; }
 
 /* ------------------------------------------------------------------
@@ -607,6 +631,9 @@ figcaption { margin-bottom: 16px; }
 
 @media (max-width: 760px) {
   :root { --page-pad: 20px; }
+  .case-btn-wrap { align-self: stretch; width: auto; margin: 64px 16px 0; }
+  .case-btn { font-size: 24px; }
+  .case--club .case-btn-wrap + .role { margin-top: 56px; }
 
   .intro-meta, .contacts { top: 24px; right: 20px; }
   .cv-download { font-size: 14px; }
