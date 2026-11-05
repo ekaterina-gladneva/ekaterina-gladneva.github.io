@@ -9,7 +9,7 @@
   <meta property="og:description" content="Case study: redesigning Lamoda's loyalty program.">
   <meta property="og:type" content="article">
   <meta property="og:image" content="https://kategladneva.github.io/social-preview.jpg">
-  <meta property="og:url" content="https://kategladneva.github.io/loyalty-program.html">
+  <meta property="og:url" content="https://kategladneva.github.io/loyalty-program">
   <meta name="theme-color" content="#000000">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +18,10 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="loyalty.css">
   <script>document.documentElement.classList.add("js")</script>
+  <script>
+    // show the clean address (no .html) even if the page was opened with it
+    try { if (location.protocol.indexOf("http") === 0 && /\.html$/.test(location.pathname)) { history.replaceState(null, "", location.pathname.replace(/\.html$/, "") + location.search + location.hash); } } catch (e) {}
+  </script>
 </head>
 <body class="lp-body">
   <div class="lp">
