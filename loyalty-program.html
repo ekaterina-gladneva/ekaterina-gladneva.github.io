@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loyalty program — Ekaterina Gladneva</title>
+  <meta name="description" content="Case study: redesigning Lamoda's loyalty program — new tiers, ML-powered personalized discounts, wireframes, UX testing and results.">
+  <meta property="og:title" content="Loyalty program — Ekaterina Gladneva">
+  <meta property="og:description" content="Case study: redesigning Lamoda's loyalty program.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://kategladneva.github.io/social-preview.jpg">
+  <meta property="og:url" content="https://kategladneva.github.io/loyalty-program.html">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,400&family=Onest:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="loyalty.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body class="lp-body">
+  <div class="lp">
+
+    <nav class="lp-nav"><a href="index.html">← Portfolio</a></nav>
+
+    <main>
+      <header class="lp-head">
+        <h1 class="lp-title reveal">Loyalty program</h1>
+      </header>
+
+      <section class="lp-intro">
+        <div class="lp-col">
+          <div class="lp-block reveal">
+            <h2>Previous loyalty program</h2>
+          <p>The previous loyalty program consisted of six discount tiers:<br>0% – 5% – 10% – 15% – 20% – 25%<br>To move up to the next tier, users had to accumulate a certain number of points (1 RUB = 1 point) and maintain a required purchase completion rate</p>
+          </div>
+          <div class="lp-block reveal">
+            <h2>User problems <span>Based on user research</span></h2>
+          <ul class="lp-list">
+            <li>No incentive for new users. When creating an account, new users started with a 0% discount. This made the loyalty program feel unappealing and discouraged them from placing their first order.</li>
+            <li>Confusing points system. Existing users didn’t understand how the points system worked and assumed they could redeem points for purchases, as they could in other loyalty programs.</li>
+            <li>Complex rules. Overall, users found the program’s rules and requirements difficult to understand.</li>
+          </ul>
+          </div>
+          <div class="lp-block reveal">
+            <h2>Business challenges</h2>
+          <ul class="lp-list">
+            <li>High discount costs. We were offering discounts that were too generous, negatively impacting profitability.</li>
+            <li>New user churn. The existing loyalty model contributed to high churn among new users.</li>
+            <li>Low perceived value. Since Lamoda regularly offered discounts and promotions, users didn’t see much additional value in the loyalty program and had little motivation to progress to higher tiers.</li>
+          </ul>
+          </div>
+          <div class="lp-block reveal">
+            <h2>New loyalty program</h2>
+          <p>The redesigned loyalty program features three tiers: Adept of style, Master of style, and Icon of style. Each tier offers a personalized discount of up to 25%.</p>
+          <p>Personalized discounts powered by ML<br>A machine learning model calculates each user’s discount based on their profile and shopping preferences. For example, new users may receive a higher initial discount to encourage their first purchase, while existing users get personalized offers based on their preferences, such as their favorite brands.</p>
+          <p>Exclusive benefits at each tier<br>Every tier comes with additional benefits, with more opportunities unlocked as users progress. For example, users at the Master Style and Icon Style tiers can choose their favorite product category and receive a discount on it throughout the month.</p>
+          <p>Clear tier maintenance requirements<br>To maintain their current tier, users need to spend a certain amount and keep their purchase completion rate at or above 20%.</p>
+          </div>
+          <div class="lp-block reveal">
+            <h2>Project goals</h2>
+          <ul class="lp-list">
+            <li>Simplify the loyalty program rules and communicate its value more effectively.</li>
+            <li>Increase the number of orders placed by new customers.</li>
+            <li>Increase average order value (AOV).</li>
+            <li>Improve customer retention and encourage repeat purchases.</li>
+            <li>Enable more flexible management of customer discounts.</li>
+          </ul>
+          </div>
+        </div>
+
+        <div class="lp-old lp-grid">
+          <figure><img src="img/loyalty-old-1.webp" width="824" height="1784" alt="Previous loyalty program, screen 1" loading="lazy"></figure>
+          <figure><img src="img/loyalty-old-2.webp" width="824" height="1784" alt="Previous loyalty program, screen 2" loading="lazy"></figure>
+        </div>
+      </section>
+
+      <section class="lp-section">
+        <div class="lp-block lp-block--wide reveal">
+          <h2>Market research for inspiration</h2>
+          <p>For inspiration, I analyzed loyalty programs in other e-commerce apps. Most of them had a minimalistic design. However, our goal was to create something bright and eye-catching, so users would notice the changes</p>
+        </div>
+        <div class="lp-market lp-grid">
+        <figure><img src="img/loyalty-market-1.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 1" loading="lazy"></figure>
+        <figure><img src="img/loyalty-market-2.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 2" loading="lazy"></figure>
+        <figure><img src="img/loyalty-market-3.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 3" loading="lazy"></figure>
+        <figure><img src="img/loyalty-market-4.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 4" loading="lazy"></figure>
+        <figure><img src="img/loyalty-market-5.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 5" loading="lazy"></figure>
+        <figure><img src="img/loyalty-market-6.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 6" loading="lazy"></figure>
+        <figure><img src="img/loyalty-market-7.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 7" loading="lazy"></figure>
+        <figure><img src="img/loyalty-market-8.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 8" loading="lazy"></figure>
+        <figure><img src="img/loyalty-market-9.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 9" loading="lazy"></figure>
+        <figure><img src="img/loyalty-market-10.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 10" loading="lazy"></figure>
+        <figure><img src="img/loyalty-market-11.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 11" loading="lazy"></figure>
+        <figure><img src="img/loyalty-market-12.webp" width="578" height="1240" alt="Loyalty program in another e-commerce app, example 12" loading="lazy"></figure>
+        </div>
+      </section>
+
+      <section class="lp-section">
+        <div class="lp-block reveal">
+          <h2>Visual identity created by the Marketing team</h2>
+          <p>We received the loyalty program’s visual identity from the Marketing team. However, when applying it to the interface, I noticed that the colour used for the Iconic tier was too muted for the highest membership level.</p>
+          <p>I refined the visual identity to make it work better within the product interface and aligned the changes with the Marketing team.</p>
+          <p>I also decided not to use italic typography in the interface, as it made the overall product typography feel too visually cluttered.</p>
+        </div>
+        <div class="lp-tiers lp-grid">
+        <figure><img src="img/loyalty-tiers.webp" width="5220" height="2535" alt="Loyalty program tiers: Adept style, Master style, Icone style" loading="lazy"></figure>
+      </div>
+      </section>
+
+      <section class="lp-section">
+        <div class="lp-block reveal">
+          <h2>Wireframes</h2>
+          <p>Together with the Product Director, we defined the key information and features that should be displayed on the profile:</p>
+          <ul class="lp-list">
+            <li>Loyalty level</li>
+            <li>Discount amount (without making it the main focus)</li>
+            <li>Progress bar with short messages to keep users informed about their progress</li>
+            <li>Favorite categories and the ability to choose them</li>
+            <li>Personalized offers (when available)</li>
+          </ul>
+          <p>Based on these decisions, I created wireframes and presented them to the Product Director for review and approval.</p>
+        </div>
+        <div class="lp-wire reveal">
+          <ul class="lp-captions">
+        <li>Profile — no categories selected</li>
+        <li>Profile — categories selected + personalized offers</li>
+        <li>Loyalty program page</li>
+        <li>Learn more about each benefit</li>
+        <li>Modal prompting users to choose new categories</li>
+        <li>Favorite category selection</li>
+        <li>2 out of 3 categories selected</li>
+        <li>Catalog</li>
+          </ul>
+          <img src="img/loyalty-wireframes.webp" width="3480" height="1060" alt="Wireframes of the profile, loyalty program page and category selection" loading="lazy">
+        </div>
+      </section>
+
+      <section class="lp-section">
+        <div class="lp-block reveal">
+          <h2>Loyalty program mvp</h2>
+          <p>During UX testing, we identified several insights:</p>
+          <ul class="lp-list">
+            <li>Users didn’t understand that the discount on their favourite category is added to the main discount. To make this clearer, we added a “+” sign and reinforced the message in the copy.</li>
+            <li>The wording “Loyalty program terms and conditions” was perceived as a legal agreement, so we changed it to “Frequently Asked Questions”.</li>
+            <li>Users pointed out that they couldn’t select all three categories at once, so we removed the restriction in the interface, allowing them to select three categories simultaneously.</li>
+            <li>Users found the new loyalty program visually appealing.</li>
+          </ul>
+        </div>
+        <div class="lp-mvp lp-mvp--3 lp-grid">
+        <figure><img src="img/loyalty-mvp-1.webp" width="750" height="1624" alt="Loyalty program MVP, screen 1" loading="lazy"></figure>
+        <figure><img src="img/loyalty-mvp-2.webp" width="750" height="1624" alt="Loyalty program MVP, screen 2" loading="lazy"></figure>
+        <figure><img src="img/loyalty-mvp-3.webp" width="750" height="1624" alt="Loyalty program MVP, screen 3" loading="lazy"></figure>
+        </div>
+        <div class="lp-mvp lp-mvp--4 lp-grid">
+        <figure><img src="img/loyalty-mvp-4.webp" width="750" height="1624" alt="Loyalty program MVP, screen 4" loading="lazy"></figure>
+        <figure><img src="img/loyalty-mvp-5.webp" width="750" height="1624" alt="Loyalty program MVP, screen 5" loading="lazy"></figure>
+        <figure><img src="img/loyalty-mvp-6.webp" width="750" height="1624" alt="Loyalty program MVP, screen 6" loading="lazy"></figure>
+        <figure><img src="img/loyalty-mvp-7.webp" width="750" height="1624" alt="Loyalty program MVP, screen 7" loading="lazy"></figure>
+        </div>
+      </section>
+
+      <section class="lp-section lp-section--last">
+        <div class="lp-block reveal">
+          <h2>Results</h2>
+          <p>The new loyalty program was initially launched to 30% of users and tested over a 2.5-month period</p>
+          <ul class="lp-list">
+            <li>The program improved all key financial metrics.</li>
+            <li>New users placed their first orders faster.</li>
+            <li>The average number of items per order increased, without any increase in return rates.</li>
+            <li>No negative reviews were received on the App Store during the test period.</li>
+          </ul>
+          <p>In September, the program was rolled out to 100% of users</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="lp-foot"><a href="index.html">← Back to portfolio</a></footer>
+  </div>
+
+  <script>
+    (function () {
+      var groups = document.querySelectorAll(".lp-grid, .reveal");
+      groups.forEach(function (g) {
+        if (g.classList.contains("lp-grid")) {
+          Array.prototype.forEach.call(g.children, function (el, i) { el.style.setProperty("--i", i); });
+        }
+      });
+      if (!("IntersectionObserver" in window)) {
+        groups.forEach(function (g) { g.classList.add("is-visible"); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting || e.boundingClientRect.bottom < 0) {
+            e.target.classList.add("is-visible");
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.15 });
+      groups.forEach(function (g) { io.observe(g); });
+    })();
+  </script>
+</body>
+</html>
