@@ -1,0 +1,42 @@
+/* Concept case page (loaded after styles.css) */
+
+.concept-page { padding-bottom: 24px; }
+
+.cp-nav {
+  position: absolute;
+  top: 28px;
+  left: calc((100% - var(--text-w)) / 2);
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--paper-muted);
+}
+.cp-nav a:hover { color: var(--white); }
+
+.cp-title {
+  width: var(--text-w);
+  margin: 50px 0 110px;
+  font-family: var(--serif);
+  font-weight: 300;
+  font-size: clamp(52px, 9.25vw, 140px);
+  line-height: 1;
+  color: var(--white);
+}
+
+.concept-page .note--lg { margin-top: 0; }
+.concept-page .concept-title { margin: 100px 0 56px; }
+
+.cp-foot {
+  width: var(--text-w);
+  margin-top: 143px;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--paper-muted);
+}
+.cp-foot a:hover { color: var(--white); }
+
+@media (max-width: 760px) {
+  .cp-title { margin: 44px 0 56px; }
+  .concept-page .note--lg { margin-top: 0; }
+  .concept-page .concept-title { margin: 64px 0 32px; }
+  .cp-foot { margin-top: 80px; }
+}
