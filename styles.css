@@ -290,7 +290,7 @@ figcaption { margin-bottom: 16px; }
   display: flex;
   align-items: center;
   gap: calc(var(--u) * 3.81);
-  padding: calc(var(--u) * 7.63) calc(var(--u) * 11.44) calc(var(--u) * 7.63) calc(var(--u) * 7.63);
+  padding: calc(var(--u) * 7.63) calc(var(--u) * 32);
   border-radius: calc(var(--u) * 3.81);
   background: #fff;
   box-shadow: inset 0 0 0 calc(var(--u) * 0.95) rgba(0, 0, 0, 0.12);
