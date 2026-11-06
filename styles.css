@@ -474,7 +474,7 @@ figcaption { margin-bottom: 16px; }
 
 .case--concept { --text-w: min(1273px, calc(100% - 2 * var(--page-pad))); }
 
-.case--concept .badge { margin-bottom: 83px; }
+.case--concept .badge { margin-bottom: 0; }
 
 .concept-text,
 .concept-steps {
@@ -601,10 +601,11 @@ figcaption { margin-bottom: 16px; }
   border-radius: 3.753cqw;
 }
 .showreel--concept .showreel-toggle { border-radius: 38px; }
+.case--concept .note--lg { margin-top: 74px; }
 
 .concept-title {
   width: var(--text-w);
-  margin: 100px 0 56px;
+  margin: 68px 0 56px;
   text-align: center;
 }
 
@@ -684,7 +685,8 @@ figcaption { margin-bottom: 16px; }
   .sonya-about { grid-column: 1; }
   .showreel--concept { margin-top: 0; border-radius: 16px; aspect-ratio: 1 / 1.1; }
   .showreel--concept .showreel-video { height: 88%; border-radius: 12cqw; }
-  .concept-title { margin: 64px 0 32px; }
+  .concept-title { margin: 48px 0 32px; }
+  .case--concept .note--lg { margin-top: 40px; }
   .case--concept .role { margin-top: 64px; }
 
   /* club: captions move onto each phone, the shared column labels go away */
