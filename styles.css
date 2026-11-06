@@ -458,13 +458,14 @@ figcaption { margin-bottom: 16px; }
   line-height: 1.2;
   letter-spacing: -0.01em;
   text-decoration: none;
+  cursor: pointer;
   transition: background-color 0.25s ease, color 0.25s ease;
 }
 .case-btn:focus-visible { background: var(--white); color: var(--black); outline-offset: 4px; }
 @media (hover: hover) {
   .case-btn:hover { background: var(--white); color: var(--black); text-decoration: none; }
 }
-.case--club .case-btn-wrap + .role { margin-top: 77px; }
+.case .case-btn-wrap + .role { margin-top: 77px; }
 .case--club .role { margin-top: 96px; }
 
 /* ------------------------------------------------------------------
@@ -633,7 +634,7 @@ figcaption { margin-bottom: 16px; }
   :root { --page-pad: 20px; }
   .case-btn-wrap { align-self: stretch; width: auto; margin: 64px 16px 0; }
   .case-btn { font-size: 24px; }
-  .case--club .case-btn-wrap + .role { margin-top: 56px; }
+  .case .case-btn-wrap + .role { margin-top: 56px; }
 
   .intro-meta, .contacts { top: 24px; right: 20px; }
   .cv-download { font-size: 14px; }
